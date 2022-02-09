@@ -8,6 +8,7 @@ __global__ void another() {
 __global__ void kernel() {
     printf("kernel: Thread %d of %d\n", threadIdx.x, blockDim.x);
     int numthreads = threadIdx.x * threadIdx.x + 1;
+    // cuda支持在一个kernel中调用另一个kernel。
     another<<<1, numthreads>>>();
     printf("kernel: called another with %d threads\n", numthreads);
 }

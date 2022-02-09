@@ -5,4 +5,4 @@ set(CMAKE_BUILD_TYPE Release)
 
 project(hellocuda LANGUAGES CXX CUDA)
 
-add_executable(main main.cu)
+add_executable(main test.cu)

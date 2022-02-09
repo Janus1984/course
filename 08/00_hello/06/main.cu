@@ -5,6 +5,7 @@ __device__ void say_hello() {
     printf("Hello, world from GPU!\n");
 }
 
+// __host__ 是可以省略的
 void say_hello_host() {
     printf("Hello, world from CPU!\n");
 }
