@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+// C语言创建数组需要手动malloc和free
 int main() {
     size_t nv = 2;
     int *v = (int *)malloc(nv * sizeof(int));

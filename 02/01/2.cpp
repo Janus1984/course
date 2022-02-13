@@ -1,6 +1,7 @@
 #include <vector>
 #include <iostream>
 
+//C++11 引入花括号初始化
 int main() {
     std::vector<int> v = {4, 3, 2, 1};
 

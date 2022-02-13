@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+// C语言版本
 int main() {
     size_t nv = 4;
     int *v = (int *)malloc(nv * sizeof(int));

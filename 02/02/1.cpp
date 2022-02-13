@@ -1,6 +1,7 @@
 #include <vector>
 #include <iostream>
 
+// C++的vector将数组大小和起始地址指针打包起来，避免程序员犯错。
 int main() {
     std::vector<int> v(2);
 
